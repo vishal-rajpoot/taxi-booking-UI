@@ -52,7 +52,7 @@ export default function LoginPage() {
 
                 <div className="space-y-2">
                   <Label htmlFor="email">Email Address</Label>
-                  <Input id="email" type="email" placeholder="john.doe@email.com" className="bg-input border-border" />
+                  <Input id="email" type="email" placeholder="vishal.rajpoot@email.com" className="bg-input border-border" />
                 </div>
 
                 {isSignUp && (
