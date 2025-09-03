@@ -10,6 +10,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { MapPin, ArrowLeft, Clock, Users } from "lucide-react"
 import Link from "next/link"
+import React from "react"
 
 const rideOptions = [
   {
@@ -17,7 +18,7 @@ const rideOptions = [
     name: "Economy",
     description: "Affordable rides for everyday travel",
     image: "/compact-sedan.png",
-    price: 12,
+    price: 120,
     estimatedTime: "3-5 min",
     capacity: 4,
     rating: 4.8,
@@ -28,7 +29,7 @@ const rideOptions = [
     name: "Comfort",
     description: "More space and premium features",
     image: "/mid-size-sedan-car.jpg",
-    price: 18,
+    price: 180,
     estimatedTime: "2-4 min",
     capacity: 4,
     rating: 4.9,
@@ -40,7 +41,7 @@ const rideOptions = [
     name: "Premium",
     description: "Luxury vehicles for special occasions",
     image: "/luxury-sedan.png",
-    price: 28,
+    price: 280,
     estimatedTime: "4-6 min",
     capacity: 4,
     rating: 5.0,
@@ -51,7 +52,7 @@ const rideOptions = [
     name: "SUV",
     description: "Spacious rides for groups and families",
     image: "/silver-suv.png",
-    price: 24,
+    price: 240,
     estimatedTime: "5-7 min",
     capacity: 6,
     rating: 4.7,
