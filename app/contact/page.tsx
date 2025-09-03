@@ -38,11 +38,11 @@ export default function ContactPage() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="space-y-2">
                       <Label htmlFor="firstName">First Name</Label>
-                      <Input id="firstName" placeholder="John" className="bg-input border-border" />
+                      <Input id="firstName" placeholder="Vishal" className="bg-input border-border" />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="lastName">Last Name</Label>
-                      <Input id="lastName" placeholder="Doe" className="bg-input border-border" />
+                      <Input id="lastName" placeholder="Rajput" className="bg-input border-border" />
                     </div>
                   </div>
 
@@ -51,7 +51,7 @@ export default function ContactPage() {
                     <Input
                       id="email"
                       type="email"
-                      placeholder="john.doe@email.com"
+                      placeholder="vishal.rajput@email.com"
                       className="bg-input border-border"
                     />
                   </div>

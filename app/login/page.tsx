@@ -10,6 +10,7 @@ import { Label } from "@/components/ui/label"
 import { Separator } from "@/components/ui/separator"
 import { Eye, EyeOff, Car } from "lucide-react"
 import Link from "next/link"
+import React from "react"
 
 export default function LoginPage() {
   const [showPassword, setShowPassword] = useState(false)
@@ -40,11 +41,11 @@ export default function LoginPage() {
                   <div className="grid grid-cols-2 gap-4">
                     <div className="space-y-2">
                       <Label htmlFor="firstName">First Name</Label>
-                      <Input id="firstName" placeholder="John" className="bg-input border-border" />
+                      <Input id="firstName" placeholder="Vishal" className="bg-input border-border" />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="lastName">Last Name</Label>
-                      <Input id="lastName" placeholder="Doe" className="bg-input border-border" />
+                      <Input id="lastName" placeholder="Rajput" className="bg-input border-border" />
                     </div>
                   </div>
                 )}

@@ -217,7 +217,7 @@ export default function DashboardPage() {
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="email">Email</Label>
-                      <Input id="email" type="email" defaultValue="john.doe@email.com" />
+                      <Input id="email" type="email" defaultValue="vishal.rajput@email.com" />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="phone">Phone Number</Label>
