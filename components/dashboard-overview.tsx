@@ -17,7 +17,7 @@ const mockUpcomingRides = [
     vehicleType: "Comfort",
     driverName: "Michael Johnson",
     driverRating: 4.9,
-    price: 18,
+    price: 180,
     status: "upcoming" as const,
   },
   {
@@ -29,7 +29,7 @@ const mockUpcomingRides = [
     vehicleType: "Premium",
     driverName: "Sarah Wilson",
     driverRating: 5.0,
-    price: 35,
+    price: 350,
     status: "upcoming" as const,
   },
 ]
@@ -44,7 +44,7 @@ const mockRecentRides = [
     vehicleType: "Economy",
     driverName: "David Chen",
     driverRating: 4.8,
-    price: 12,
+    price: 1200,
     status: "completed" as const,
   },
 ]
