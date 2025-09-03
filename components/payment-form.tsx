@@ -90,7 +90,7 @@ export function PaymentForm({ totalAmount, onConfirm }: PaymentFormProps) {
               </Label>
               <Input
                 id="cardName"
-                placeholder="John Doe"
+                placeholder="Vishal Rajput"
                 value={cardData.name}
                 onChange={(e) => setCardData({ ...cardData, name: e.target.value })}
                 className="bg-input border-border focus:ring-ring"

@@ -40,8 +40,8 @@ export function DashboardSidebar({ activeSection, onSectionChange }: DashboardSi
             <AvatarFallback className="bg-sidebar-accent text-sidebar-accent-foreground">JD</AvatarFallback>
           </Avatar>
           <div className="flex-1 min-w-0">
-            <div className="font-medium text-sidebar-foreground truncate">John Doe</div>
-            <div className="text-sm text-sidebar-foreground/70">john.doe@email.com</div>
+            <div className="font-medium text-sidebar-foreground truncate">Vishal Rajput</div>
+            <div className="text-sm text-sidebar-foreground/70">VishalRajpoot@email.com</div>
           </div>
           <Badge variant="secondary" className="bg-sidebar-accent/20 text-sidebar-accent">
             Gold

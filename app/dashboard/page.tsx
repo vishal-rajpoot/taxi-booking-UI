@@ -11,6 +11,7 @@ import { Label } from "@/components/ui/label"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
 import { Search, Filter, CreditCard, Plus } from "lucide-react"
+import React from "react"
 
 const mockAllRides = [
   {
@@ -201,7 +202,7 @@ export default function DashboardPage() {
                       <AvatarFallback className="bg-primary/10 text-primary text-lg">JD</AvatarFallback>
                     </Avatar>
                     <div>
-                      <h3 className="text-lg font-semibold text-card-foreground">John Doe</h3>
+                      <h3 className="text-lg font-semibold text-card-foreground">Vishal Rajput</h3>
                       <p className="text-muted-foreground">Gold Member</p>
                       <Button variant="outline" size="sm" className="mt-2 bg-transparent">
                         Change Photo
@@ -212,7 +213,7 @@ export default function DashboardPage() {
                   <div className="space-y-4">
                     <div className="space-y-2">
                       <Label htmlFor="name">Full Name</Label>
-                      <Input id="name" defaultValue="John Doe" />
+                      <Input id="name" defaultValue="Vishal Rajput" />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="email">Email</Label>
