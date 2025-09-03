@@ -110,7 +110,7 @@ export function RideSummary({
               <div className="text-sm text-muted-foreground">License: ABC-1234</div>
             </div>
             <div className="text-right">
-              <div className="text-lg font-bold text-primary">${price}</div>
+              <div className="text-lg font-bold text-primary">₹{price}</div>
             </div>
           </div>
         </div>

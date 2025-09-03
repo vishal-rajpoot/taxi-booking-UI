@@ -57,7 +57,7 @@ export default function ConfirmationPage() {
                 <div>Booking ID: #RDE-2024-001234</div>
                 <div>Driver: {rideData.driverName}</div>
                 <div>Vehicle: {rideData.vehicleType}</div>
-                <div>Total: ${rideData.price.toFixed(2)}</div>
+                <div>Total: ₹{rideData.price.toFixed(2)}</div>
               </div>
             </div>
             <p className="text-sm text-muted-foreground mb-6">Redirecting to your dashboard in a few seconds...</p>

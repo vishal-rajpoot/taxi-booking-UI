@@ -22,7 +22,7 @@ const mockAllRides = [
     vehicleType: "Comfort",
     driverName: "Michael Johnson",
     driverRating: 4.9,
-    price: 18,
+    price: 180,
     status: "upcoming" as const,
   },
   {
@@ -34,7 +34,7 @@ const mockAllRides = [
     vehicleType: "Premium",
     driverName: "Sarah Wilson",
     driverRating: 5.0,
-    price: 35,
+    price: 350,
     status: "upcoming" as const,
   },
   {
@@ -46,7 +46,7 @@ const mockAllRides = [
     vehicleType: "Economy",
     driverName: "David Chen",
     driverRating: 4.8,
-    price: 12,
+    price: 120,
     status: "completed" as const,
   },
   {
@@ -58,7 +58,7 @@ const mockAllRides = [
     vehicleType: "SUV",
     driverName: "Lisa Rodriguez",
     driverRating: 4.7,
-    price: 24,
+    price: 240,
     status: "completed" as const,
   },
 ]
@@ -163,15 +163,15 @@ export default function DashboardPage() {
                   <div className="space-y-2">
                     <div className="flex justify-between text-sm">
                       <span className="text-muted-foreground">This month</span>
-                      <span className="font-medium text-card-foreground">$127.50</span>
+                      <span className="font-medium text-card-foreground">₹127.50</span>
                     </div>
                     <div className="flex justify-between text-sm">
                       <span className="text-muted-foreground">Last month</span>
-                      <span className="font-medium text-card-foreground">$89.25</span>
+                      <span className="font-medium text-card-foreground">₹89.25</span>
                     </div>
                     <div className="flex justify-between text-sm">
                       <span className="text-muted-foreground">Total this year</span>
-                      <span className="font-medium text-card-foreground">$1,247.80</span>
+                      <span className="font-medium text-card-foreground">₹1,247.80</span>
                     </div>
                   </div>
 

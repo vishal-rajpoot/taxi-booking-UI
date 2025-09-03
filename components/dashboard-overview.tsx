@@ -106,7 +106,7 @@ export function DashboardOverview() {
             <TrendingUp className="h-4 w-4 text-primary" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold text-card-foreground">$1,247</div>
+            <div className="text-2xl font-bold text-card-foreground">₹1,247</div>
             <p className="text-xs text-muted-foreground">This year</p>
           </CardContent>
         </Card>

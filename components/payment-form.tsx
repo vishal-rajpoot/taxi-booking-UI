@@ -183,20 +183,20 @@ export function PaymentForm({ totalAmount, onConfirm }: PaymentFormProps) {
           <div className="space-y-2 text-sm">
             <div className="flex justify-between">
               <span className="text-muted-foreground">Base fare</span>
-              <span className="text-card-foreground">${(totalAmount * 0.8).toFixed(2)}</span>
+              <span className="text-card-foreground">₹{(totalAmount * 0.8).toFixed(2)}</span>
             </div>
             <div className="flex justify-between">
               <span className="text-muted-foreground">Service fee</span>
-              <span className="text-card-foreground">${(totalAmount * 0.15).toFixed(2)}</span>
+              <span className="text-card-foreground">₹{(totalAmount * 0.15).toFixed(2)}</span>
             </div>
             <div className="flex justify-between">
               <span className="text-muted-foreground">Tax</span>
-              <span className="text-card-foreground">${(totalAmount * 0.05).toFixed(2)}</span>
+              <span className="text-card-foreground">₹{(totalAmount * 0.05).toFixed(2)}</span>
             </div>
             <Separator />
             <div className="flex justify-between font-semibold text-base">
               <span className="text-card-foreground">Total</span>
-              <span className="text-primary">${totalAmount.toFixed(2)}</span>
+              <span className="text-primary">₹{totalAmount.toFixed(2)}</span>
             </div>
           </div>
         </div>
@@ -213,7 +213,7 @@ export function PaymentForm({ totalAmount, onConfirm }: PaymentFormProps) {
           className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-semibold py-3 text-lg"
           size="lg"
         >
-          Confirm Booking - ${totalAmount.toFixed(2)}
+          Confirm Booking - ₹{totalAmount.toFixed(2)}
         </Button>
       </CardContent>
     </Card>
