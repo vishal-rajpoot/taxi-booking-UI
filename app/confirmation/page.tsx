@@ -27,7 +27,7 @@ export default function ConfirmationPage() {
     distance: "8.5 miles",
     driverName: "Michael Johnson",
     driverRating: 4.9,
-    price: 18.0,
+    price: 1800.0,
   }
 
   const handleConfirmBooking = () => {
